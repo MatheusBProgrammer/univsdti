@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* App.css */
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: start;
+  width: 100%;
+  text-align: center;
+  height: auto;
+  padding: 1em;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+  margin-bottom: 20px;
+}
+.header img {
+  height: 300px;
+}
+.content {
+  width: 90%; /* Ajuste para melhor responsividade */
+  max-width: 600px; /* Limita a largura máxima para dispositivos maiores */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaçamento entre os campos do formulário */
+}
+
+/* Estilização adicional para o botão */
+button {
+  padding: 10px 0; /* Aumenta a altura do botão */
+  font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilizações específicas para TextField e MenuItem podem ser adicionadas conforme necessário */
+h1 {
+  font-size: 3em;
+  color: #0d3b62;
 }
