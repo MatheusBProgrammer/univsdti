@@ -28,7 +28,7 @@ function Form() {
   const handleSubmit = (event) => {
     event.preventDefault();
     const message = formatWhatsAppMessage();
-    const whatsappNumber = "88993751008"; // Número atualizado
+    const whatsappNumber = "+5588993751008"; // Número atualizado
     const whatsappURL = `https://api.whatsapp.com/send?phone=${whatsappNumber}&text=${encodeURIComponent(
       message
     )}`;
